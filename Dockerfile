@@ -4,6 +4,7 @@ MAINTAINER Sergiy Tupchiy <stupchiy@gmail.com>
 
 # Install dependencies required for link-checker distribution installation
 RUN apt-get update && apt-get install -y \
+      curl \
       cpanminus \
       make \
       build-essential \
